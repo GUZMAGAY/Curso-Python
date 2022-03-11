@@ -45,3 +45,6 @@ print(min(lista))
 
 #valor maximo de una lista
 print(max(lista))
+
+print(lista3.index('e'))
+print(lista3.count('e'))

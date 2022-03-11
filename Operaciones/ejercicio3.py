@@ -13,3 +13,9 @@ print(lista3)
 
 lista4 = lista + lista2
 print(lista4)
+
+lista5 = []
+for l1, l2 in zip(lista2, lista):
+    lista5 += (l2, l1)
+    print('El estuadiante ',l2, 'tiene la nota ',l1)
+print(lista5)
