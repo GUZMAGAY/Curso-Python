@@ -7,7 +7,7 @@ for valor in gen_basico():
     print(valor)
 """
 
-from tkinter import N
+"""from tkinter import N
 
 
 def generador():
@@ -24,4 +24,19 @@ g = generador()
 print(next(g))
 print(next(g))
 print(next(g))
+
+"""
+
+def generadorPares(Limite):
+    num = 1
+    while num < Limite:
+        yield num*2
+        num += 1
+devuelvepares = generadorPares(10)
+
+print(next(devuelvepares))
+print('Aqui va un poco mas de codigo')
+print(next(devuelvepares))
+print('Aqui va mas codigo del necesario')
+print(next(devuelvepares))
 
