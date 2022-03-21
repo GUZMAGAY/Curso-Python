@@ -23,6 +23,7 @@ class Cuenta:
         return self.__monto()
 
 c = Cuenta()
+
 print(c.cta())
 print(c.tip())
 print(c.acceso())
