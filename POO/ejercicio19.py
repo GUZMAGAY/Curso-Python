@@ -30,8 +30,6 @@ def control():
 print('Operaciones con 2 números \n')
 
 control()
-"""num1 = int(input('Ingrese el primer numero: '))
-num2 = int(input('Ingrese el segundo numero: '))"""
 
 while True:
     
